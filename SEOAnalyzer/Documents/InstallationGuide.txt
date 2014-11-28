@@ -1,0 +1,26 @@
+﻿Installation package is in SEOAnalyzerDeploy folder. 
+
+1.	If IIS 7 is installed on the destination server, you can use IIS Manager to install the package. 
+
+1.1 Open the IIS Manager by clicking Start > Run and typing inetmgr.
+
+1.2 In IIS Manager, expand the Server node and the Sites node, then select the Default Web Site.
+
+1.3 In the right-hand Actions pane, click the Import Application... link to launch the packaging wizard.
+
+1.4 Select the package that you created in the previous quick guide, MyApplication.zip, or any other package.
+
+1.5 In the Install an Application Package dialog, you will see the application and the database.
+
+1.6 On the Parameters page, enter a new application name if desired and enter a SQL connection string.
+
+1.7 Click Next to install the package.
+
+1.8 The Summary page will provide a high-level overview of some items that were installed from the package. 
+ The Details tab will give a lot of detail of exactly what was added.
+
+
+2.	If the destination server has IIS 5.1 or IIS 6 installed, or if you prefer not to install the package by using IIS Manager, 
+you can use the .cmd file that Visual Studio generates when it creates the package. 
+
+

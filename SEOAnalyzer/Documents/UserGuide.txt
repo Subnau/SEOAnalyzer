@@ -1,0 +1,15 @@
+﻿Application SEOAnalyzer consist of one web page, where user can choose options and see results.
+
+There are such options exists in application:
+1. Stop-words in text block where you can add more.
+2. Three check boxs, which specify the need to count words, keywords and links in text
+3. By setting options "Web page URL/HTML text" you can choose to analyze existing web page or your text/html.
+  In case when choosed "HTML text" text area below will be enlarged for easy editing of text
+4. Button "Analyze" perfrom calculation according to choosed options.
+
+After complete calculation you may see  result information:
+External links number
+Table of Words/Occurencies
+Table of Keywords/Occurencies
+
+By clicking on column name in table performed sorting
